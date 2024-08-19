@@ -1,4 +1,4 @@
-### 1.) Find the smallest number in an array
+1.) Find the smallest number in an array
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -12,7 +12,7 @@ int smallest(vector<int> &arr, int n) {
     return small;
 }
 
-### 2.) Find the largest number in an array
+2.) Find the largest number in an array
 #include <bits/stdc++.h>
 using namespace std;
 int largest(vector<int> &arr, int n) {
