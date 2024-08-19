@@ -1,0 +1,12 @@
+1. Find the smallest number in an array
+#include <bits/stdc++.h>
+using namespace std;
+int smallest(vector<int> &arr, int n) {
+    int small = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < small) {
+            small = arr[i];
+        }
+    }
+    return small;
+}
