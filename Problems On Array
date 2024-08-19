@@ -1,5 +1,5 @@
 1. Find the smallest number in an array
-'''cpp
+(```
 #include <bits/stdc++.h>
 using namespace std;
 int smallest(vector<int> &arr, int n) {
@@ -11,3 +11,4 @@ int smallest(vector<int> &arr, int n) {
     }
     return small;
 }
+)
