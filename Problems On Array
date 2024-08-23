@@ -5,9 +5,7 @@ using namespace std;
 int smallest(vector<int> &arr, int n) {
     int small = arr[0];
     for (int i = 1; i < n; i++) {
-        if (arr[i] < small) {
-            small = arr[i];
-        }
+        small = min(small,arr[i]);
     }
     return small;
 }
